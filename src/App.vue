@@ -1,6 +1,7 @@
 <script setup>
 import Contact from "./components/Contact.vue";
 import Spreadsheet from "./components/Spreadsheet.vue";
+import WhatsappButton from "./components/WppButton.vue";
 </script>
 
 <template>
@@ -12,6 +13,7 @@ import Spreadsheet from "./components/Spreadsheet.vue";
       <Contact />
       <Spreadsheet />
     </div>
+    <WhatsappButton />
   </div>
 </template>
 
